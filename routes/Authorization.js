@@ -32,4 +32,6 @@ router.get("/authorization/email=:mail", async (req, res) => {
 
 })
 
+
+
 module.exports = router;

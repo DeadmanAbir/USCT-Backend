@@ -32,7 +32,9 @@ router.post("/create/students/:type", async (req, res) => {
     res.json({ message: "Student data successfully" });
 })
 
-
+router.get("/", (req, res)=>{
+    res.sendStatus(200);
+})
 
 module.exports = router;
 
